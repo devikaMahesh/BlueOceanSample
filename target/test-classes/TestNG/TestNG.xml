@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Blue Ocean" parallel="tests " thread-count="1">
+
+
+<test verbose="4" name="Blue Ocean"
+		enabled="true">
+		<classes>
+					<class name="blueocean.sample.SearchBanInSD" />
+		</classes>
+	</test>
+	
+	</suite>
+
